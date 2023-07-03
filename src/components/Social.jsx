@@ -12,7 +12,7 @@ const Social = () => {
     <Fragment>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My socials</p>
-        <h2 className={`${styles.sectionHeadText}`}>Contact.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Contact</h2>
       </motion.div>
       <motion.div className='flex flex-row flex-wrap justify-center gap-10'>
         
