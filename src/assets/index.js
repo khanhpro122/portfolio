@@ -8,7 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import sass from "./tech/sass.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -24,14 +23,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import qi from "./company/qi.png";
+import antsomi from "./company/antsomi.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import youtube from "./social/youtube.png";
+import facebook from "./social/facebook.png";
+
+import bookingcare from './bookingcare.png'
+import spotify from './spotify.png'
+import shop from './shop.png'
 
 export {
   logo,
@@ -43,7 +43,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -55,14 +54,14 @@ export {
   tailwind,
   typescript,
   sass,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   reactQuery,
   reduxSaga,
-  nextjs
+  nextjs,
+  qi,
+  antsomi,
+  facebook,
+  youtube,
+  bookingcare,
+  spotify,
+  shop
 };

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Typical from "react-typical";
 
 const Hero = () => {
   return (
@@ -15,11 +16,16 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText}text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>KHANH NGUYEN</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a website developer
+            I am a 
+            <Typical
+              steps={[' website developer', 2000, ' javascript developer', 1000]}
+              loop={Infinity}
+              wrapper="span"
+            />
           </p>
         </div>
       </div>

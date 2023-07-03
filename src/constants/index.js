@@ -1,5 +1,4 @@
 import {
-  mobile,
   backend,
   creator,
   web,
@@ -11,20 +10,20 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  qi,
+  antsomi,
+
   reduxSaga,
   reactQuery,
   sass,
   nextjs,
+  facebook,
+  youtube,
+  github,
+  bookingcare,
+  spotify,
+  shop,
 } from "../assets";
 
 export const navLinks = [
@@ -111,61 +110,58 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  
+];
+
+const socials = [
+  {
+    name: "Facebook",
+    icon: facebook,
+    link: 'https://www.facebook.com/profile.php?id=100029948120158'
+    
+  },
+  {
+    name: "Github",
+    icon: github,
+    link: 'https://github.com/khanhpro122'
+  }
+,
+  {
+    name: "Youtube",
+    icon: youtube,
+    link: 'https://www.youtube.com/@laptrinhthatde'
   }
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    company_name: "Qi technology",
+    icon: qi,
+    iconBg: "#ffffff",
+    date: "Dec 2022 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Manage departments, draw departmental diagrams in PX1",
+      "Draw a chart of employee attendance, being late, taking leave,...",
     ],
+    link:'https://qi.com.vn/'
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Fullstack Developer",
+    company_name: "Antsomi",
+    icon: antsomi,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop view/edit mode feature  for attribute node and fix bug in JOURNEY(CDP 365).",
+      "Use image-unsplash library create list image for Image block in MEDIA-TEMPLATE(CDP 365).",
+      "Add block, button, custom field video for MEDIA-TEMPLATE(CDP 365).",
+      "Build UI in predictive app(RFM) in CDP 365.",
+      "Build Ticket app (chat app in CDP 365).",
+      "Build catalogs of (admin app in CDP 365)"
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    link:'https://www.antsomi.com/'
   },
 ];
 
@@ -198,68 +194,96 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Booking care clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to view clinic or doctor appointments according to available time frames, send mail when booked,...",
     tags: [
       {
-        name: "react",
+        name: "reactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "sass",
         color: "pink-text-gradient",
       },
+      {
+        name: "react-thunk",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: bookingcare,
+    source_code_link: "https://github.com/khanhpro122/bookingcare",
   },
   {
-    name: "Job IT",
+    name: "Shop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web ecommerce allows for user to view, filter, search, view product, payment with paypal, chat messsenger and manager products,...",
     tags: [
       {
-        name: "react",
+        name: "reactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "style-component",
         color: "pink-text-gradient",
       },
+      {
+        name: "JWT",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "react-query",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "ant-design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: shop,
+    source_code_link: "https://shop-lttd.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Sportify clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Inspired by spotify, the website allows users can view tracks, add music and favorites, and manager list of musics...",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: spotify,
+    source_code_link: "https://github.com/khanhpro122/spotify",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socials };

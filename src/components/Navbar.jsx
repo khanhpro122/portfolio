@@ -29,8 +29,8 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+      } w-full flex items-center py-5 fixed top-0 z-20 bg-gradient-to-t ${
+        scrolled ? "from-purple-900 to-purple-700 " : "bg-transparent"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -54,7 +54,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
+                active === nav.title ? "text-white " : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
