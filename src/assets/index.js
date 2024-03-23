@@ -25,6 +25,7 @@ import typescript from "./tech/typescript.png";
 
 import qi from "./company/qi.png";
 import antsomi from "./company/antsomi.png";
+import nexle from "./company/nexle.jpeg";
 
 import youtube from "./social/youtube.png";
 import facebook from "./social/facebook.png";
@@ -63,5 +64,6 @@ export {
   youtube,
   bookingcare,
   spotify,
-  shop
+  shop,
+  nexle
 };
