@@ -167,8 +167,7 @@ const experiences = [
     date: "Aug 2023 - now",
     points: [
       "Project: CMS-HTQT-THACO",
-      "Description:",
-      "CMS-HTQT-THACO is a project used internally within the company MY THACO.As a Frontend Developer, I played a key role in the team, contributing significantly to the development of the landing page and content management system (CMS). The technology stack I utilized included NextJS, MaterialUI, ReactJS, TypeScript, Redux Toolkit,YUP and more.",
+      "Description:CMS-HTQT-THACO is a project used internally within the company MY THACO.As a Frontend Developer, I played a key role in the team, contributing significantly to the development of the landing page and content management system (CMS). The technology stack I utilized included NextJS, MaterialUI, ReactJS, TypeScript, Redux Toolkit,YUP and more.",
       "Project: Reactjs-core-client:",
       "Description: Reactjs-core-client is core project that can be used for the company to build future projects could be a framework for lang:",
       "Project: Reactjs-core-admin:",
